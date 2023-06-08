@@ -5,7 +5,7 @@
 ARGS=
 while [ $# -gt 0 ]; do
     case "$1" in
-        -a|--opzione-a)
+        -a|--opt-a)
             if [ -n "$2" ]; then
                 echo "option A with argument: $2"
                 shift 2
@@ -14,11 +14,11 @@ while [ $# -gt 0 ]; do
                 exit 1
             fi
             ;;
-        -b|--opzione-b)
+        -b|--opt-b)
             echo "option B"
             shift
             ;;
-        -c|--opzione-c)
+        -c|--opt-c)
             echo "option C"
             shift
             ;;

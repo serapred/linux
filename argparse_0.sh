@@ -29,4 +29,4 @@ while [ $# -gt 0 ]; do
     esac
 done
 
-echo "positional rguments: $ARGS"
+echo "positional arguments: $ARGS"
